@@ -13,7 +13,7 @@ function setup() {
 	createCanvas(500, 500);
   
   database = firebase.database();
-  
+  	
   dog = createSprite(200,300,150,150);
   dog.addImage(dogImg1);
   dog.scale = 0.15;
